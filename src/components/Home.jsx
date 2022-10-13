@@ -28,8 +28,16 @@ const Home=()=>{
         }).catch((err)=>{
           console.log(err);
         })
+        getData();
       }
 
+      const getData=()=>{
+        Axios.get("https://reqres.in/api/users?page=2").then((res)=>{
+            console.log(res);
+        }).catch((err)=>{
+            console.log(err);
+        })
+      }
 
 
     useEffect(()=>{
