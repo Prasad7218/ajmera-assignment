@@ -12,4 +12,7 @@ table,th,td{
     border-collapse:collapse;
 
 }
+.btn{
+    margin-bottom:20px;
+}
 
